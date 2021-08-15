@@ -9,7 +9,7 @@ G_MIRROR
 https://golang.google.cn/dl/
 由于国内无法自由访问Golang官网，导致查询及下载go版本都变得困难，因此可以通过该环境变量指定一个镜像站点。
 
-![20201105183428929](C:\Users\Administrator\Desktop\新建文件夹\20201105183428929.png)
+![20201105183428929](.\20201105183428929.png)
 
 G_HOME
 值为

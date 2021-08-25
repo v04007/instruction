@@ -7,3 +7,8 @@ func ReflectValue(bean interface{}) reflect.Value {
 	return reflect.Indirect(reflect.ValueOf(bean))  
 }
 ```
+```
+	 s2 := []string{"包子", "馒头", "画卷", "螃蟹", "细化"}  
+	 t := append(s, make([]string, 5)...)  
+	 s3 := append(s2[:2], s2[3:]...)  
+```	

@@ -1,3 +1,12 @@
+```
+        //for _, key := range keyArr {
+        //    d, err = PostCoin(key)
+        //    if err != nil {
+        //     continue
+        // }
+        // return d,err
+        //}
+```
 ```       
          //append 截取
 	 s2 := []string{"包子", "馒头", "画卷", "螃蟹", "细化"}  

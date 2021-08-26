@@ -34,3 +34,14 @@
 	// 	红烧肉
 	// 红烧肉 清蒸鱼
 ```
+
+```
+        //xorm in 查询
+	type Users struct {
+		Id   int64
+		Name string `xorm:"varchar(25) [not ]null unique 'usr_name' comment('姓名')"`
+	}
+	var U []Users
+	engine.In("id", []int{1, 2, 3}).Find(&U)
+	fmt.Println(&U)
+```

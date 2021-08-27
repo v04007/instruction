@@ -77,3 +77,19 @@
 	return
 breakTag:
 ```
+
+```
+        //结构体快速赋值
+	type Point struct {
+		X, Y float64
+	}
+
+	type ColoredPoint struct {
+		Point
+		Color string
+	}
+
+	var cp ColoredPoint
+	cp.X = 11
+	fmt.Println(cp) //{{11 0} }
+```

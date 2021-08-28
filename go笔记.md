@@ -1,11 +1,11 @@
 ```
-        //for _, key := range keyArr {
-        //    d, err = PostCoin(key)
-        //    if err != nil {
-        //     continue
-        // }
-        // return d,err
-        //}
+        for _, key := range keyArr {
+            d, err = PostCoin(key)
+            if err != nil {
+             continue
+         }
+         return d,err
+        }
 ```
 ```       
          //append 截取

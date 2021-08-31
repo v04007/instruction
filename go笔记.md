@@ -93,3 +93,21 @@ breakTag:
 	cp.X = 11
 	fmt.Println(cp) //{{11 0} }
 ```
+
+```
+	if d, err = postCoin(keyArr[currentKey]);d.Status!=0 {
+		previousKey:=currentKey
+			if d.Status.ErrorCode== ErrorCode  {
+				next:
+				currentKey = (currentKey + 1) % len(keyArr)
+				if currentKey!=previousKey {
+					if d, err = postCoin(keyArr[currentKey]);d.Status== ErrorCode  {
+						goto next
+					}
+					}else{
+						logger.LogError(err.Error())
+					}
+			}
+	}
+	return
+```

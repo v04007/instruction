@@ -95,6 +95,7 @@ breakTag:
 ```
 
 ```
+//求余、goto用法
 	if d, err = postCoin(keyArr[currentKey]);d.Status!=0 {
 		previousKey:=currentKey
 			if d.Status.ErrorCode== ErrorCode  {
